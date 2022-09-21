@@ -1,10 +1,3 @@
-/*Utilizando la librería de MPI desarrollar un algoritmo 
-que calcule la suma de un arreglo de números. 
-El usuario ingresará el tamaño del arreglo y se llenara con números random, 
-el arreglo de números debe ser dividido entre 
-la cantidad total de procesos que se utilizarán de manera que cada proceso
- calcule una suma parcial. Al final el proceso 0 debe sumar todas 
- las sumas parciales e imprimir el resultado final de la suma.*/
 #include <stdio.h>
 #include <string.h>
 #include <mpi.h>
