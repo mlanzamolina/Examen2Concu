@@ -16,7 +16,13 @@ namespace Gatewayy.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        // https://localhost:44329/weatherforecast/5
+        [HttpGet]
+        public string Getstart ()
+        {
+            Guid guid = Guid.NewGuid();
+            return $"gateway url example https://localhost:44350/weatherforecast/{guid}";
+        }
+        // https://localhost:44350/weatherforecast/5
         [HttpGet("{id}")]
         public FileStreamResult GetbranchofficesDto(string id)
         {

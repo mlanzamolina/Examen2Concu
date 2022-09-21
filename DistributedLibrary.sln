@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedLibrary.Authors.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedLibrary.OtherAuthors.APi", "src\DistributedLibrary.OtherAuthors.APi\DistributedLibrary.OtherAuthors.APi.csproj", "{A6190153-C916-41F7-BD61-E40808208890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{883A872F-BA40-4BAA-AA58-9D9191060D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{883A872F-BA40-4BAA-AA58-9D9191060D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +43,7 @@ Global
 		{0969F75C-9D52-43F6-8CC7-A696C9DBD919} = {778B61F4-4E30-40E9-BDF9-7F721F1CBE92}
 		{AB9833A9-2888-44F7-97D4-2566D0EE583C} = {778B61F4-4E30-40E9-BDF9-7F721F1CBE92}
 		{A6190153-C916-41F7-BD61-E40808208890} = {778B61F4-4E30-40E9-BDF9-7F721F1CBE92}
+		{883A872F-BA40-4BAA-AA58-9D9191060D04} = {778B61F4-4E30-40E9-BDF9-7F721F1CBE92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFFEE533-8E4D-4355-85A1-4FD573AAFC13}
